@@ -2,7 +2,7 @@
 package snackbarApp;
 
 public class Vendor {
-  private static int maxID = 0;
+  private static int maxId = 0;
   private int id;
   public String Vname;
 
@@ -14,6 +14,10 @@ public class Vendor {
 
   public String getName() {
     return this.Vname;
+  }
+
+  public int getId() {
+    return this.id;
   }
 
   public void changeName(String name) {

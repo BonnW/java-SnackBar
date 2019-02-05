@@ -31,9 +31,9 @@ public class Snack {
     this.quantity += x;
   }
 
-  public String buySnack(int x) {
+  public void buySnack(int x) {
     this.quantity -= x;
-    return "Purchased " + x + this.name;
+
   }
 
   public double purchaseTotal(int x) {
